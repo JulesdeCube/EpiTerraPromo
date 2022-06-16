@@ -34,8 +34,8 @@ The main config file is in [`config.lock`](./config.json) (it's a hard_link to
 }
 ```
 
-You can setup admin and modo in [`src/users/admin.tf`](src/users/admin.tf) and
-[`src/users/modo.tf`](src/users/modo.tf).
+You can setup admin and modo in [`src/users.tf`](src/users.tf) and
+[`src/role_members.tf`](src/role_members.tf).
 
 ### Deploy
 
