@@ -66,3 +66,8 @@ please reformat your code before any submision:
 ```sh
 terraform fmt --recursive
 ```
+
+# Licence
+
+EpiTerraPromo is available under the GNU General Public Licence V3.0 license.
+See the [`LICENSE`](./LICENSE) file for more info.
