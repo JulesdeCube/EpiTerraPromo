@@ -14,15 +14,8 @@ terraform {
 
 }
 
-
 provider "discord" {
   token = var.discord_token
-}
-
-resource "discord_server" "server" {
-  name     = format("EPITA (%d) ✨", var.promo)
-  region = "india"
-  # owner_id = module.modo.owner_id
 }
 
 resource "discord_text_channel" "general" {
