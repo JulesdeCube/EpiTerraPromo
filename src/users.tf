@@ -27,3 +27,9 @@ data "discord_member" "Vinetos" {
   username      = "Vinetos"
   discriminator = "1856"
 }
+
+data "discord_member" "JulesTest" {
+  server_id     = data.discord_server.discord_modos.id
+  username      = "JulesdeTest"
+  discriminator = "0154"
+}
